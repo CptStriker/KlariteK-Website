@@ -3,106 +3,97 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>KlariteK – Die doppelte Lösung – funktional & kosteneffizient!</title>
+  <title>KlariteK</title>
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background-color: #f0f8ff;
+      background-color: #f2f2f2;
       color: #333;
     }
     header {
-      background-color: #1e3a8a;
+      background-color: #003366;
       color: white;
-      padding: 1.5rem 1rem;
+      padding: 1.5rem;
       text-align: center;
     }
-    h1 {
-      font-size: 2.5rem;
+    header h1 {
       margin: 0;
+      font-size: 2.5rem;
     }
-    h1 span.orange {
-      color: #f97316;
-    }
-    .subtitle {
+    header p {
+      margin: 0.5rem 0 0;
       font-size: 1.2rem;
-      margin-top: 0.5rem;
+      color: white;
     }
     .slogan {
-      font-size: 1rem;
-      font-style: italic;
-      margin-top: 0.3rem;
+      text-align: center;
+      font-size: 1.1rem;
+      margin: 1rem 0;
+      color: #f97316;
+      font-weight: bold;
     }
-    .content {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 0 1rem;
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 2rem;
+      gap: 2rem;
     }
-    .box {
-      background-color: #ffffff;
-      border: 1px solid #ccc;
-      border-left: 5px solid #1e3a8a;
-      padding: 1rem;
-      margin-bottom: 2rem;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    .card {
+      background-color: white;
+      padding: 1.5rem;
+      border-radius: 1.5rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 300px;
     }
-    .box h2 {
-      color: #1e3a8a;
+    .card h2 {
       margin-top: 0;
+      color: #003366;
+    }
+    .card p {
+      font-size: 0.85rem;
+      line-height: 1.5;
     }
     footer {
-      background-color: #e5e7eb;
-      padding: 1rem;
+      background-color: #003366;
+      color: white;
       text-align: center;
+      padding: 1rem;
       font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1><span class="orange">K</span>larite<span class="orange">K</span></h1>
-    <div class="subtitle">Klar. Klarer. KlariteK.</div>
-    <div class="slogan">Die doppelte Lösung – funktional & kosteneffizient!</div>
+    <h1>K<span style="color:#f97316">K</span> KlariteK</h1>
+    <p>Klar. Klarer. KlariteK.</p>
   </header>
 
-  <div class="content">
-    <div class="box">
+  <div class="slogan">Die doppelte Lösung – funktional & kosteneffizient!</div>
+
+  <div class="container">
+    <div class="card">
       <h2>Über uns</h2>
-      <p>
-        KlariteK steht für Präzision, Qualität und Benutzerfreundlichkeit. Wir entwickeln zuverlässige Laborlösungen für anspruchsvolle Anwender – mit einem klaren Fokus auf Funktionalität und Kostenbewusstsein.
-      </p>
+      <p>KlariteK steht für Präzision, Qualität und Benutzerfreundlichkeit. Wir entwickeln zuverlässige Laborlösungen für anspruchsvolle Anwender – mit einem klaren Fokus auf Funktionalität und Kostenbewusstsein.</p>
     </div>
-
-    <div class="box">
+    <div class="card">
       <h2>Über unser Produkt</h2>
-      <p>
-        Unsere 3M-Kaliumchlorid-Lösung ist speziell für die sichere und zuverlässige Kalibrierung Ihrer Elektroden entwickelt.
-        Sie schützt empfindliche Sensoren und sorgt für konsistente Messergebnisse – ohne unnötige Komplexität.
-      </p>
+      <p>Unsere 3M-Kaliumchlorid-Lösung ist speziell für die sichere und zuverlässige Kalibrierung Ihrer Elektroden entwickelt. Sie schützt empfindliche Sensoren und sorgt für konsistente Messergebnisse – ohne unnötige Komplexität.</p>
     </div>
-
-    <div class="box">
+    <div class="card">
       <h2>Kontakt</h2>
-      <p>
-        Sie haben Fragen zu unserem Produkt, zur Anwendung, zum Vertrieb oder wollen uns Ihre Wünsche mitteilen?<br />
-        Wir sind für Verbesserungsvorschläge dankbar. Schreiben Sie uns gerne – wir antworten in der Regel innerhalb von 24 Stunden.
-      </p>
-      <p><strong>E-Mail:</strong> info@klaritek.de</p>
+      <p>Sie haben Fragen zu unserem Produkt, zur Anwendung, zum Vertrieb oder wollen uns Ihre Wünsche mitteilen? Wir sind für Verbesserungsvorschläge dankbar. Schreiben Sie uns gerne – wir antworten in der Regel innerhalb von 24 Stunden.</p>
+      <p><strong>E-Mail: info@klaritek.de</strong></p>
     </div>
-
-    <div class="box">
+    <div class="card">
       <h2>Impressum</h2>
-      <p>
-        Oliver Swain<br />
-        Brusendorfer Str. 7<br />
-        12055 Berlin<br />
-        info@klaritek.de
-      </p>
+      <p>Oliver Swain<br>Brusendorfer Str. 7<br>12055 Berlin<br><br>E-Mail: info@klaritek.de</p>
     </div>
   </div>
 
   <footer>
-    &copy; 2025 KlariteK. Alle Rechte vorbehalten.
+    © 2025 KlariteK. Alle Rechte vorbehalten.
   </footer>
 </body>
 </html>
