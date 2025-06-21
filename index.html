@@ -1,99 +1,104 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>KlariteK</title>
+  <meta charset="UTF-8">
+  <title>KlariteK – Die doppelte Lösung</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background-color: #f2f2f2;
-      color: #333;
+      background-color: #FAFAFA;
+      color: #1A1A1A;
     }
     header {
-      background-color: #003366;
+      background-color: #0057A0;
       color: white;
-      padding: 1.5rem;
+      padding: 2rem;
       text-align: center;
     }
     header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    header p {
-      margin: 0.5rem 0 0;
-      font-size: 1.2rem;
-      color: white;
+      font-size: 3.125rem; /* 25% größer als vorher */
+      margin-bottom: 0.3rem;
     }
     .slogan {
-      text-align: center;
-      font-size: 1.1rem;
-      margin: 1rem 0;
-      color: #333;
-      font-weight: bold;
+      font-size: 1rem;
+      margin-top: 0.2rem;
+      margin-bottom: 0.5rem;
     }
-    .container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+    .subtitle {
+      font-size: 1rem;
+      margin-top: 0.2rem;
+    }
+    .section {
+      padding: 3rem 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .white-box {
+      background-color: #FFFFFF;
       padding: 2rem;
-      gap: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      margin-bottom: 2rem;
+      border-left: 4px solid #F28C00; /* Orange-Akzentlinie */
     }
-    .card {
-      background-color: white;
+    .highlight-box {
+      background-color: #E6F0FA;
       padding: 1.5rem;
-      border-radius: 1.5rem;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      width: 300px;
+      border-left: 4px solid #0057A0;
+      margin-bottom: 2rem;
     }
-    .card h2 {
-      margin-top: 0;
-      color: #003366;
-    }
-    .card p {
-      font-size: 0.85rem;
-      line-height: 1.5;
+    .orange-letter {
+      color: #F28C00;
     }
     footer {
-      background-color: #003366;
-      color: white;
+      background-color: #2C2C2C;
+      color: #FAFAFA;
       text-align: center;
       padding: 1rem;
+    }
+    .impressum {
       font-size: 0.9rem;
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid #ccc;
+      color: #555;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>K<span style="color:#f97316">K</span> KlariteK</h1>
-    <p>Klar. Klarer. KlariteK.</p>
+    <h1><span class="orange-letter">K</span>larite<span class="orange-letter">K</span></h1>
+    <div class="slogan">Klar. Klarer. KlariteK.</div>
+    <p class="subtitle">Die doppelte Lösung – funktional und kosteneffizient!</p>
   </header>
 
-  <div class="slogan">Die doppelte Lösung – funktional & kosteneffizient!</div>
+  <section class="section">
+    <div class="white-box">
+      <h2>KlariteK</h2>
+      <strong>Unsere 3M-Kaliumchlorid-Lösung sorgt für zuverlässige Referenzwerte in Laboren und technischen Anwendungen. pH-stabil, geprüft, Made in Germany.</strong>
+    </div>
 
-  <div class="container">
-    <div class="card">
-      <h2>Über uns</h2>
-      <p>KlariteK steht für Präzision, Qualität und Benutzerfreundlichkeit. Wir entwickeln zuverlässige Laborlösungen für anspruchsvolle Anwender – mit einem klaren Fokus auf Funktionalität und Kostenbewusstsein.</p>
+    <div class="white-box">
+      <p>„Jede fehlerhafte Messung kann unnötige Kosten für Nachbesserung, Qualitätsverlust oder Produktionsausfall verursachen.“</p>
+      <p>Viele Kunden berichten, dass sie zuvor Angst vor dem Kalibrieren hatten – mit KlariteK ist diese Hürde Geschichte. Unsere Lösung ist lichtstabil, lange haltbar und direkt einsatzbereit – für eine dauerhafte Laborroutine ohne Unterbrechungen.</p>
     </div>
-    <div class="card">
-      <h2>Über unser Produkt</h2>
-      <p>Unsere 3M-Kaliumchlorid-Lösung ist speziell für die sichere und zuverlässige Kalibrierung Ihrer Elektroden entwickelt. Sie schützt empfindliche Sensoren und sorgt für konsistente Messergebnisse – ohne unnötige Komplexität.</p>
+
+    <div class="impressum">
+      <h3>Impressum</h3>
+      <p><strong>Verantwortlich gemäß § 5 TMG:</strong></p>
+      <p>Oliver Swain<br>
+      Brusendorfer Straße 7<br>
+      12055 Berlin<br>
+      Deutschland</p>
+      <p><strong>Kontakt:</strong><br>
+      E-Mail: <a href="mailto:info@klaritek.de">info@klaritek.de</a></p>
     </div>
-    <div class="card">
-      <h2>Kontakt</h2>
-      <p>Sie haben Fragen zu unserem Produkt, zur Anwendung, zum Vertrieb oder wollen uns Ihre Wünsche mitteilen? Wir sind für Verbesserungsvorschläge dankbar. Schreiben Sie uns gerne – wir antworten in der Regel innerhalb von 24 Stunden.</p>
-      <p><strong>E-Mail: info@klaritek.de</strong></p>
-    </div>
-    <div class="card">
-      <h2>Impressum</h2>
-      <p>Oliver Swain<br>Brusendorfer Str. 7<br>12055 Berlin<br><br>E-Mail: info@klaritek.de</p>
-    </div>
-  </div>
+  </section>
 
   <footer>
-    © 2025 KlariteK. Alle Rechte vorbehalten.
+    <p>© 2025 KlariteK. Alle Rechte vorbehalten.</p>
   </footer>
 </body>
 </html>
